@@ -10,6 +10,8 @@
   background-image: url("https://i.ibb.co/HNvHSyV/image-header.jpg");
   background-position: center bottom;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -45,4 +47,20 @@
 
 .contact button:hover {
   background-color: orange;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+.arrow {
+  margin-top: 50px;
+  margin-bottom: 250px;
 }
